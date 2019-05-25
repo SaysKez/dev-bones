@@ -1,0 +1,57 @@
+/* Table of Contents
+
+-- GENERAL --
+0. CSS Reset
+1. Universal styling
+    1.1 Typography
+    1.2 Links & Buttons
+    1.3 Images
+2. Nav
+3. Flexbox
+4. Grid
+
+-- Media Queries --
+1. Elements
+    1.1 Images
+2. Tablet
+3. Mobile
+*/
+
+/* 0. CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/* 1. UNIVERSAL STYLING */
+body {
+    width: 100%;
+    overflow-y: hidden;       
+}
+
+/* 1.1 Typography */
+
+/* 1.2 Links & Buttons */
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+/* 1.3 Images */
+
+/* 2. Nav */
+nav ul li {
+    display: inline;
+    list-style: none;
+}

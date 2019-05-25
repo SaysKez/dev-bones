@@ -7,7 +7,7 @@
 ## References
 
 ### Table of Contents
-- Markdown
+- [Markdown](#pencil-markdown)
 - HTML & CSS
 - Version Control & Dev Management
 - Web Typography
