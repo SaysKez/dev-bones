@@ -11,27 +11,27 @@
 
 ### Table of Contents
 - [Content]()
-  - :pencil: [Markdown]()
-  - :speech_balloon: [HTML]()
-  - :bulb: [SVGs]()
+  - [Markdown]()
+  - [HTML]()
+  - [SVGs]()
 - [Style]()
-  - :cherry_blossom: [CSS]()
-  - :scissors: [Sass]()
-  - :triangular_ruler: [CSS Grid]()
-  - :muscle: [Flexbox]()
-  - :musical_score: [Web Typography]()
+  - [CSS]()
+  - [Sass]()
+  - [CSS Grid]()
+  - [Flexbox]()
+  - [Web Typography]()
 - [Dev Management]()
-  - :construction: [Version Control]()
-  - :runner: [Task Runner]()
+  - [Version Control]()
+  - [Task Runner]()
 - [Testing]()
-  - :shipit: [Performance & SEO]()
-  - :earth_americas: [Accessibility]()
+  - [Performance & SEO]()
+  - [Accessibility]()
 - [Javascript]()
-  - :electric_plug: [Plugins]()
+  - [Plugins]()
 - [Misc Tools]()
-  - :space_invader: [Image Preparation]()
+  - [Image Preparation]()
 
-### Content
+## Content
 #### :pencil: Markdown
 - [Markdown > HTML converter](https://daringfireball.net/projects/markdown/dingus)
 - [Cheat sheet](https://www.markdownguide.org/cheat-sheet/)
@@ -53,7 +53,7 @@
 - [Accessible SVGs](https://css-tricks.com/accessible-svgs/)
 
 
-### Style
+## Style
 #### :cherry_blossom: CSS
 - [CSS Reference](https://cssreference.io/)
 - [Marksheet HTML & CSS Tutorial](https://marksheet.io/)
@@ -85,7 +85,7 @@
 - [Modular Scale](https://www.modularscale.com/)
 
 
-### Dev Management
+## Dev Management
 #### :construction: Version Control
 - [Set up a remote repo on GitHub](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
 - [Useful Git Commands](https://github.com/SaysKez/UsefulGitCommands)
@@ -102,7 +102,7 @@
 	- [Watch for changes](https://github.com/gruntjs/grunt-contrib-watch)
 	- [Jekyll]
 
-### Testing
+## Testing
 #### :shipit: Performance & SEO
 - [Front End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse)
@@ -113,13 +113,13 @@
 - [tota11y accessibility visualisation](https://khan.github.io/tota11y/)
 - [WAVE Web Accessibility Evaluation Tool](http://wave.webaim.org/)
 
-### Javascript
+## Javascript
 #### :electric_plug: Plugins
 - [Greensock animations](https://greensock.com/)
 - [ScrollMagic scroll interactions](https://scrollmagic.io/)
 - [Highway navigation transistions](https://highway.js.org/)
 
-### Misc Tools
+## Misc Tools
 #### :space_invader: Image Preparation
 - [Favicon Generator](https://realfavicongenerator.net/)
 - [TinyPNG](https://tinypng.com/)
