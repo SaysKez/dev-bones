@@ -11,20 +11,25 @@
 
 ### Table of Contents
 - [Content]()
-  - Markdown
-  - HTML
-  - SVGs
+  - :pencil: [Markdown]()
+  - :speech_balloon: [HTML]()
+  - :bulb: [SVGs]()
 - [Style]()
-  - CSS & Sass
-  - CSS Grid
-  - Flexbox
-  - Web Typography
+  - :cherry_blossom: [CSS]()
+  - :scissors: [Sass]()
+  - :triangular_ruler: [CSS Grid]()
+  - :muscle: [Flexbox]()
+  - :musical_score: [Web Typography]()
 - [Dev Management]()
-  - Version Control
-  - Task Runner
-- [Testing & Accessibility]()
-- [Plugins]()
-- [Misc]()
+  - :construction: [Version Control]()
+  - :runner: [Task Runner]()
+- [Testing]()
+  - :shipit: [Performance & SEO]()
+  - :earth_americas: [Accessibility]()
+- [Javascript]()
+  - :electric_plug: [Plugins]()
+- [Misc Tools]()
+  - :space_invader: [Image Preparation]()
 
 ### Content
 #### :pencil: Markdown
@@ -97,20 +102,24 @@
 	- [Watch for changes](https://github.com/gruntjs/grunt-contrib-watch)
 	- [Jekyll]
 
-
-### :shipit: Accessibility & Testing
-- [Lighthouse](https://github.com/GoogleChrome/lighthouse)
-- [tota11y accessibility visualisation](https://khan.github.io/tota11y/)
+### Testing
+#### :shipit: Performance & SEO
 - [Front End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
+- [Lighthouse](https://github.com/GoogleChrome/lighthouse)
 - [Test my site speed](https://www.thinkwithgoogle.com/intl/en-gb/feature/testmysite)
-- [WAVE Web Accessibility Evaluation Tool](http://wave.webaim.org/)
 - [Google Analytics Checker](http://www.gachecker.com/)
 
-### :electric_plug: Plugins
+#### :earth_americas: Accessibility
+- [tota11y accessibility visualisation](https://khan.github.io/tota11y/)
+- [WAVE Web Accessibility Evaluation Tool](http://wave.webaim.org/)
+
+### Javascript
+#### :electric_plug: Plugins
 - [Greensock animations](https://greensock.com/)
 - [ScrollMagic scroll interactions](https://scrollmagic.io/)
 - [Highway navigation transistions](https://highway.js.org/)
 
-### :space_invader: Misc
+### Misc Tools
+#### :space_invader: Image Preparation
 - [Favicon Generator](https://realfavicongenerator.net/)
 - [TinyPNG](https://tinypng.com/)

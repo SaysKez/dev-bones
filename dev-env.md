@@ -8,6 +8,7 @@
 	- Craft
 - Gifox
 - [Visual Studio Code](https://code.visualstudio.com/)
+    - https://code.visualstudio.com/assets/docs/getstarted/tips-and-tricks/KeyboardReferenceSheet.png
 	- https://devhints.io/vscode
 	- vs code spotify
 	- SVG viewer
