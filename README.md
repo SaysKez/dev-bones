@@ -26,18 +26,18 @@
 - [Plugins]()
 - [Misc]()
 
-### :pencil: Content
-#### Markdown
+### Content
+#### :pencil: Markdown
 - [Markdown > HTML converter](https://daringfireball.net/projects/markdown/dingus)
 - [Cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 - [PDF Guide](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 - [GitHub Markdown Emoji Cheat Sheet](https://gist.github.com/rxaviers/7360908)
 
-#### HTML
+#### :speech_balloon: HTML
 - [HTML Reference](https://htmlreference.io/)
 - [HTML Validator](https://validator.w3.org/)
 
-### SVGs
+#### :bulb: SVGs
 - [SVGO - Node.js SVG Optimser](https://github.com/svg/svgo)
 - [SVGOMG - SVGO's missing GUI](https://jakearchibald.github.io/svgomg/)
 - [Understanding SVGs 1: SVG coordinate system, viewport, and viewBox](https://www.sarasoueidan.com/blog/svg-coordinate-systems/)
@@ -48,24 +48,24 @@
 - [Accessible SVGs](https://css-tricks.com/accessible-svgs/)
 
 
-### :cherry_blossom: Style
-#### CSS
+### Style
+#### :cherry_blossom: CSS
 - [CSS Reference](https://cssreference.io/)
 - [Marksheet HTML & CSS Tutorial](https://marksheet.io/)
 - [Can I Use?](https://caniuse.com/)
 - [CSS Cheatsheet - Selectors, Fonts, Backgrounds, and Animation](https://devhints.io/css)
 - [CSS Stats](https://cssstats.com/)
 
-#### Sass
+#### :scissors: Sass
 - 
 
-#### CSS Grid
+#### :triangular_ruler: CSS Grid
 - [CSS-Trick's Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid by Example](https://gridbyexample.com/)
 - [Grid Garden](https://cssgridgarden.com/)
 - [Grid Visual Cheatsheet](http://grid.malven.co/)
 
-#### Flexbox
+#### :muscle: Flexbox
 - [CSS-Trick's Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Visual Guide to Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 - [Flexbox Visual Cheatsheet](http://flexbox.malven.co/)
@@ -80,12 +80,12 @@
 - [Modular Scale](https://www.modularscale.com/)
 
 
-### :construction: Dev Management
-#### Version Control
+### Dev Management
+#### :construction: Version Control
 - [Set up a remote repo on GitHub](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
 - [Useful Git Commands](https://github.com/SaysKez/UsefulGitCommands)
 
-#### Task Runners
+#### :runner: Task Runners
 - [Grunt task runner](https://gruntjs.com/)
 	-	[Setting up Grunt](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
 	- [uglify JS](https://github.com/gruntjs/grunt-contrib-uglify)
