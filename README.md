@@ -23,11 +23,11 @@
 - [Dev Management]()
   - [Version Control]()
   - [Task Runner]()
+- [Javascript]()
+  - [Plugins]()
 - [Testing]()
   - [Performance & SEO]()
   - [Accessibility]()
-- [Javascript]()
-  - [Plugins]()
 - [Misc Tools]()
   - [Image Preparation]()
 
@@ -51,7 +51,6 @@
 - [SVG Filters: The Crash Course](https://www.sarasoueidan.com/blog/svg-filters/)
 - [SVG Filters 101](https://www.sarasoueidan.com/blog/svg-filters-101/)
 - [Accessible SVGs](https://css-tricks.com/accessible-svgs/)
-
 
 ## Style
 #### :cherry_blossom: CSS
@@ -84,7 +83,6 @@
 - [Type Scale](https://type-scale.com/)
 - [Modular Scale](https://www.modularscale.com/)
 
-
 ## Dev Management
 #### :construction: Version Control
 - [Set up a remote repo on GitHub](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
@@ -102,6 +100,12 @@
 	- [Watch for changes](https://github.com/gruntjs/grunt-contrib-watch)
 	- [Jekyll]
 
+## Javascript
+#### :electric_plug: Plugins
+- [Greensock animations](https://greensock.com/)
+- [ScrollMagic scroll interactions](https://scrollmagic.io/)
+- [Highway navigation transistions](https://highway.js.org/)
+
 ## Testing
 #### :shipit: Performance & SEO
 - [Front End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
@@ -112,12 +116,6 @@
 #### :earth_americas: Accessibility
 - [tota11y accessibility visualisation](https://khan.github.io/tota11y/)
 - [WAVE Web Accessibility Evaluation Tool](http://wave.webaim.org/)
-
-## Javascript
-#### :electric_plug: Plugins
-- [Greensock animations](https://greensock.com/)
-- [ScrollMagic scroll interactions](https://scrollmagic.io/)
-- [Highway navigation transistions](https://highway.js.org/)
 
 ## Misc Tools
 #### :space_invader: Image Preparation
