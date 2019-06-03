@@ -41,10 +41,12 @@
 #### :speech_balloon: HTML
 - [HTML Reference](https://htmlreference.io/)
 - [HTML Validator](https://validator.w3.org/)
+- [Unicode symbols & special character reference](https://www.toptal.com/designers/htmlarrows/)
 
 #### :bulb: SVGs
 - [SVGO - Node.js SVG Optimser](https://github.com/svg/svgo)
 - [SVGOMG - SVGO's missing GUI](https://jakearchibald.github.io/svgomg/)
+- [SVG coordinate system interactive demo + cheatsheet](https://www.sarasoueidan.com/demos/interactive-svg-coordinate-system/)
 - [Understanding SVGs 1: SVG coordinate system, viewport, and viewBox](https://www.sarasoueidan.com/blog/svg-coordinate-systems/)
 - [Understanding SVGs 2: transforms](https://www.sarasoueidan.com/blog/svg-transformations/)
 - [Understanding SVGs 3: new viewports, symbols, and nesting SVGs](https://www.sarasoueidan.com/blog/nesting-svgs/)
@@ -59,6 +61,7 @@
 - [Can I Use?](https://caniuse.com/)
 - [CSS Cheatsheet - Selectors, Fonts, Backgrounds, and Animation](https://devhints.io/css)
 - [CSS Stats](https://cssstats.com/)
+- [Box shadow generator](https://www.cssmatic.com/box-shadow)
 
 #### :scissors: Sass
 - 

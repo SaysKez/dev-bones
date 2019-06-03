@@ -1,0 +1,358 @@
+/* 0. CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/* TYPOGRAPHY */
+
+body {
+    color: #000;
+    margin: auto;
+    max-width: 1440px;
+    position: relative;
+    width: 100%;
+    /* background-color: #FF3262; */
+}
+
+h1, h2, h3, li, a, button {
+    font-family: 'Eczar', serif;
+}
+
+h1 {
+    font-size: 4.209em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    font-size: 2.369em;
+}
+
+h3 {
+    font-size: 1.777em;
+    border-bottom: 0.2em solid #000;
+    width: 60%;
+    margin-bottom: 0.563em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.333em;
+    margin-bottom: 2.369em;
+}
+
+a, button {
+    text-decoration: none;
+    line-height: 1.333em;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+p a:hover {
+    color: #FF3262;
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+
+/* HEADER */
+.ribs {
+    background-image: url("../img/ribs-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    width: 50%;
+    position: absolute;
+    bottom: 4.209em;
+    left: auto;
+}
+
+/* NAV */
+nav ul {
+    padding: 1.333em 0em;
+}
+
+nav ul li {
+    margin: 0.563em auto;
+}
+
+nav a {
+    color: #000;
+}
+
+nav a:hover {
+    color: #FF3262;
+}
+
+nav li:hover:before {
+    content: url(../img/hand.png);
+    display: block;
+    position: absolute;
+    left: -40px;
+}
+
+/* BUTTONS */
+.button {
+    border: none;
+    color: #fff;
+    padding: 0.563em 1.777em;
+    background-color: #000;
+    -webkit-transition: all 0.175s ease-in-out;
+    transition: all 0.175s ease-in-out;
+}
+
+.button:hover {
+    background-color: #FF3262;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 3px 5px 0px 0px rgba(0,0,0,1);
+}
+
+.button:visited {
+    color: #fff;
+}
+
+/* IMG */
+img {
+    position: absolute;
+    width: 1100px;
+    left: -300px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+/* GRID */
+
+body {
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 2em; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 0.5fr 1fr 1fr 1fr 1fr 0.4fr / repeat(6, 1fr) ;
+    grid-gap: 2em 2em;
+    grid-column: 1 / 7;
+    grid-row: 4 / 8;
+    width: 95%;
+    margin: auto;
+}
+
+/*
+img {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+
+nav {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+}
+
+header {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+footer {
+    grid-column: 3 / 6;
+    grid-row: 8;
+}
+*/
+
+h2 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    align-self: end;
+}
+
+.item-1 {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+}
+
+.item-2 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 1;
+}
+
+.item-3 {
+    grid-column: 5 / span 2;
+    grid-row: 4 / span 1;
+}
+
+.item-4 {
+    grid-column: 4 / span 2;
+    grid-row: 5 / span 1;
+}
+
+button {
+    grid-column: 5 / span 2;
+    grid-row: 6;
+    align-self: start;
+    justify-self: end;
+}
+
+
+/* FOOTER */
+footer {
+    width: 95%;
+    margin: auto;
+}
+
+footer p {
+    width: 50%;
+    margin-bottom: 0em;
+    margin-left: 50%;
+    font-size: 0.75em;
+    text-align: right;
+    padding-bottom: 2.369em;
+}
+
+
+/* BONES VIEW */
+
+.bones {
+    background-color: #FF3262;
+}
+
+.bones {
+    color: #fff;
+}
+
+.bones p {
+    opacity: 0.95;
+}
+
+.bones a {
+    color: #fff;
+}
+
+.bones h3 {
+    width: 80%;
+}
+
+.bones nav a:hover {
+    color: #000;
+}
+
+.bones .button:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 3px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 3px 5px 0px 0px rgba(0,0,0,1);
+    color: #000;
+}
+
+.bones p a:hover {
+    color: #fff;
+}
+
+
+
+.bones *:before, .bones *:after {
+    color: #000;
+    font-size: 60%;
+}
+
+.bones h1:before {
+    content: "<h1>";
+}
+.bones h1:after {
+    content: "</h1>";
+}
+
+.bones h2:before {
+    content: "<h2>";
+}
+.bones h2:after {
+    content: "</h2>";
+}
+
+.bones h3:before {
+    content: "<h3>";
+}
+.bones h3:after {
+    content: "</h3>";
+}
+
+.bones p:before {
+    content: "<p>";
+    font-size: 80%;
+}
+.bones p:after {
+    content: "</p>";
+    font-size: 80%;
+}
+
+.bones a.button:before {
+    content: "<a>";
+    color: #FF3262;
+    font-size: 80%;
+}
+.bones a.button:after {
+    content: "</a>";
+    color: #FF3262;
+    font-size: 80%;
+}
+
+.bones button:before {
+    content: "<button>";
+    color: #FF3262;
+    font-size: 80%;
+}
+.bones button:after {
+    content: "</button>";
+    color: #FF3262;
+    font-size: 80%;
+}
+
+.bones li:before {
+    content: "<li>";
+}
+.bones li:after {
+    content: "</li>";
+}
+
+.bones ul:before {
+    content: "<ul>";
+}
+.bones ul:after {
+    content: "</ul>";
+}
+
+.bones small:before {
+    content: "<footer>";
+    font-size: 80%;
+}
+.bones small:after {
+    content: "</footer>";
+    font-size: 80%;
+}
