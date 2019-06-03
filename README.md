@@ -4,7 +4,7 @@ https://sayskez.github.io/dev-bones/
 ## What?
 A HTML & CSS boilerplate skeleton ready for you to put some flesh on these bones. Mix and match depending on your needs and unleash your own zombie on the web without the hassle of all the setup.
 
-### What's Inside
+#### What's Inside:
 - **Skeleton** - The basic bones of a website with all the metadata and setup you need to get started.
 - **Zombie** - The skeleton with extras for those bigger builds with SCSS, a task runner, and other conveniences preconfigured for you to get your zombie up and running.
 - **Flesh & Bones** - Semantic HTML bones and frequently used CSS flesh ready to graft on to any skeleton. Copy and paste the bits you need, bury the rest.
@@ -13,6 +13,7 @@ A HTML & CSS boilerplate skeleton ready for you to put some flesh on these bones
 
 ## Download
 To get your own dev-bones skeleton copy this command into your terminal:
+
 `git clone https://github.com/SaysKez/dev-bones.git`
 
 Or download the ZIP file from above. 
@@ -21,9 +22,10 @@ Or download the ZIP file from above.
 Grab the bits you need, bury the rest:
 - Download a Skeleton or Zombie, give it a name, pour in your own content, and put some flesh on those bones.
 - Grab what you need from the Flesh & Bones collection and ditch the rest. 
-- Dive into the Resources & Brain Matter to guide you from styling and layout to version control and testing.
+- Dive into the Resources & Brain Matter (below) to guide you from styling and layout to version control and testing.
 
 ## Credits
+Dev Bones is based on my frequently used project elements and grew out of a customised skeleton of the awesome [HTML5 Boilerplate](https://html5boilerplate.com/) and [mrmrs HTML Blocks](https://github.com/mrmrs/html). Begun as a [#12in12 Side Project](https://medium.com/@SaysKez/12-in-12-a-year-of-design-37a81940c5d0) and bashed together in under a month. If you have any suggestions, submit a pull request or gives me a shout [@SaysKez](https://twitter.com/SaysKez).
 
 ## Resources & Brain Matter
 
