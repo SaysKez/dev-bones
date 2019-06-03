@@ -4,10 +4,12 @@ https://sayskez.github.io/dev-bones/
 ## What?
 A HTML & CSS boilerplate skeleton ready for you to put some flesh on these bones. Mix and match depending on your needs and unleash your own zombie on the web without the hassle of all the setup.
 
-#### What's Inside
-*Skeleton* - The basic bones of a website with all the metadata and setup you need to get started.
-*Zombie* - The skeleton with extras for those bigger builds with SCSS, a task runner, and other conveniences preconfigured for you to get your zombie up and running.
-*Flesh & Bones* - Semantic HTML bones and frequently used CSS flesh ready to graft on to any skeleton. Copy and paste the bits you need, bury the rest.
+### What's Inside
+- **Skeleton** - The basic bones of a website with all the metadata and setup you need to get started.
+- **Zombie** - The skeleton with extras for those bigger builds with SCSS, a task runner, and other conveniences preconfigured for you to get your zombie up and running.
+- **Flesh & Bones** - Semantic HTML bones and frequently used CSS flesh ready to graft on to any skeleton. Copy and paste the bits you need, bury the rest.
+- **Resources & Brain Matters** (this document) -  Top off your skeleton of choice with a grave full of resources & links for frequently referenced topics from initial styling and layout guides to tools for testing.
+
 
 ## Download
 To get your own dev-bones skeleton copy this command into your terminal:
