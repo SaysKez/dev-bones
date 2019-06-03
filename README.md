@@ -8,15 +8,13 @@ A HTML & CSS boilerplate skeleton ready for you to put some flesh on these bones
 - **Skeleton** - The basic bones of a website with all the metadata and setup you need to get started.
 - **Zombie** - The skeleton with extras for those bigger builds with SCSS, a task runner, and other conveniences preconfigured for you to get your zombie up and running.
 - **Flesh & Bones** - Semantic HTML bones and frequently used CSS flesh ready to graft on to any skeleton. Copy and paste the bits you need, bury the rest.
-- **Resources & Brain Matters** (this document) -  Top off your skeleton of choice with a grave full of resources & links for frequently referenced topics from initial styling and layout guides to tools for testing.
+- **Resources & Brain Matters** *(this document)* -  Top off your skeleton of choice with a grave full of resources & links for frequently referenced topics from initial styling and layout guides to tools for testing.
 
 
 ## Download
-To get your own dev-bones skeleton copy this command into your terminal:
+Download the ZIP file above or copy this command into your terminal to get your own set of Dev Bones:
 
 `git clone https://github.com/SaysKez/dev-bones.git`
-
-Or download the ZIP file from above. 
 
 ## How to use
 Grab the bits you need, bury the rest:
@@ -28,28 +26,27 @@ Grab the bits you need, bury the rest:
 Dev Bones is based on my frequently used project elements and grew out of a customised skeleton of the awesome [HTML5 Boilerplate](https://html5boilerplate.com/) and [mrmrs HTML Blocks](https://github.com/mrmrs/html). Begun as a [#12in12 Side Project](https://medium.com/@SaysKez/12-in-12-a-year-of-design-37a81940c5d0) and bashed together in under a month. If you have any suggestions, submit a pull request or gives me a shout [@SaysKez](https://twitter.com/SaysKez).
 
 ## Resources & Brain Matter
-
 ### Table of Contents
-- [Content]()
-  - [Markdown]()
-  - [HTML]()
-  - [SVGs]()
-- [Style]()
-  - [CSS]()
-  - [Sass]()
-  - [CSS Grid]()
-  - [Flexbox]()
-  - [Web Typography]()
-- [Dev Management]()
-  - [Version Control]()
-  - [Task Runner]()
-- [Javascript]()
-  - [Plugins]()
-- [Testing]()
-  - [Performance & SEO]()
-  - [Accessibility]()
-- [Misc Tools]()
-  - [Image Preparation]()
+  - [Content](#content)
+      - [:pencil: Markdown](#pencil-markdown)
+      - [:speech_balloon: HTML](#speechballoon-html)
+      - [:bulb: SVGs](#bulb-svgs)
+  - [Style](#style)
+      - [:cherry_blossom: CSS](#cherryblossom-css)
+      - [:scissors: Sass](#scissors-sass)
+      - [:triangular_ruler: CSS Grid](#triangularruler-css-grid)
+      - [:muscle: Flexbox](#muscle-flexbox)
+      - [:musical_score: Web Typography](#musicalscore-web-typography)
+  - [Dev Management](#dev-management)
+      - [:construction: Version Control](#construction-version-control)
+      - [:runner: Task Runners](#runner-task-runners)
+  - [Javascript](#javascript)
+      - [:electric_plug: Plugins](#electricplug-plugins)
+  - [Testing](#testing)
+      - [:shipit: Performance & SEO](#shipit-performance--seo)
+      - [:earth_americas: Accessibility](#earthamericas-accessibility)
+  - [Misc Tools](#misc-tools)
+      - [:space_invader: Image Preparation](#spaceinvader-image-preparation)
 
 ## Content
 #### :pencil: Markdown
