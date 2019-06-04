@@ -86,14 +86,14 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 #### :triangular_ruler: CSS Grid
 - [CSS-Trick's Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid by Example](https://gridbyexample.com/)
-- [Grid Garden](https://cssgridgarden.com/)
+- [Grid Garden - Learn CSS Grid](https://cssgridgarden.com/)
 - [Grid Visual Cheatsheet](http://grid.malven.co/)
 
 #### :muscle: Flexbox
 - [CSS-Trick's Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Visual Guide to Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 - [Flexbox Visual Cheatsheet](http://flexbox.malven.co/)
-- [Flexbox Froggy](https://flexboxfroggy.com/)
+- [Flexbox Froggy - Learn Flexbox](https://flexboxfroggy.com/)
 
 #### :musical_score: Web Typography
 - [Google Fonts](https://fonts.google.com/)
@@ -110,7 +110,7 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 
 #### :runner: Task Runners
 - [Grunt task runner](https://gruntjs.com/)
-	-	[Setting up Grunt](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
+	- [Setting up Grunt](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
 	- [uglify JS](https://github.com/gruntjs/grunt-contrib-uglify)
 	- [Minify CSS](https://www.npmjs.com/package/grunt-contrib-cssmin)
 	- [Image minify](https://www.npmjs.com/package/grunt-contrib-imagemin)
