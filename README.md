@@ -77,8 +77,10 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 - [Marksheet HTML & CSS Tutorial](https://marksheet.io/)
 - [Can I Use?](https://caniuse.com/)
 - [CSS Cheatsheet - Selectors, Fonts, Backgrounds, and Animation](https://devhints.io/css)
+- [CSS selectors reference](https://css-tricks.com/almanac/selectors/)
 - [CSS Stats](https://cssstats.com/)
 - [Box shadow generator](https://www.cssmatic.com/box-shadow)
+- [Media queries for standard devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 #### :scissors: Sass
 - 
