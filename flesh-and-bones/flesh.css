@@ -41,17 +41,46 @@ a {
 }
 
 a:hover {
-    color: lightblue;
+    color: #FF3262;
 }
 
 a:visited {
-    color: darkblue;
+    color: #FF3262;
 }
 
-/* 1.3 Images */
+/* 1.3 IMG */
+
+.bg-img {
+    background-image: url("../img/");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+}
 
 /* 2. Nav */
 nav ul li {
     display: inline;
     list-style: none;
 }
+
+
+/* 3. Flexbox */
+
+
+/* 4. CSS Grid */
+
+.grid-wrapper {
+    display: grid;
+    /* repeats 1fr column 3 times OR
+    grid-template: row values / column values */
+    grid-template-columns: repeat(3, 1fr);
+    /* row gap, column gap */
+    grid-gap: 20px 10px;
+  }
+  
+  .item {
+    /* align - align along the column axis
+    justify - aligning along the row axis */
+  }
