@@ -1,7 +1,7 @@
 /* Table of Contents
 
 -- GENERAL --
-0. CSS Reset
+0. Simple Reset
 1. General styling
     1.1 Typography
     1.2 Links & Buttons
@@ -11,12 +11,12 @@
 4. Flexbox
 5. Grid
 
--- Media Queries --
-M1. Example syntax
+-- Responsive --
+M1. Media query syntax
 */
 
 
-/* 0. CSS RESET */
+/* 0. SIMPLE RESET */
 * {
     padding: 0;
     margin: 0;
@@ -24,19 +24,19 @@ M1. Example syntax
     line-height: 1em;
 }
 
-/* 1. UNIVERSAL STYLING */
+/* 1. GENERAL STYLING */
 body {
     width: 100%;
     max-width: 1440px;
     overflow-y: hidden;       
 }
 
-/* 1.1 Typography */
+/* 1.1 TYPOGRAPHY */
 p {
     font-family: "Name", Arial, Helvetica, sans-serif;    
 }
 
-/* 1.2 Links & Buttons */
+/* 1.2 LINKS & BUTOONS */
 a {
     text-decoration: none;
     -webkit-transition: all 0.2s ease-in-out;
@@ -51,7 +51,7 @@ a:visited {
     color: #FF3262;
 }
 
-/* 1.3 Handy Shorthand */
+/* 1.3 HANDY SHORTHAND */
 a {
     border: 1px solid #000;
     box-shadow: 3px 5px 0px 0px rgba(0,0,0,0.25);
@@ -66,7 +66,7 @@ a {
 }
 
 
-/* 2. Images */
+/* 2. IMAGES */
 
 /* Cropping */
 .headline-img {
@@ -100,14 +100,14 @@ a {
     display: inline;
 } */
 
-/* 3. Nav */
+/* 3. NAV */
 nav ul li {
     display: inline;
     list-style: none;
 }
 
 
-/* 4. Flexbox */
+/* 4. FLEXBOX */
 .flex-wrapper {
     display: flex;
     /* inline-flex to display container inline. */
@@ -125,7 +125,7 @@ nav ul li {
 }
 
 
-/* 5. CSS Grid */
+/* 5. GRID */
 
 .grid-wrapper {
     display: grid;
@@ -148,8 +148,8 @@ nav ul li {
   }
 
 
-/* Media Queries */
-/* M1. Example syntax */
+/* RESPONSIVE */
+/* M1. Media query syntax */
 @media (max-width: 600px) {
     /* Styles for 600px and down go here.
     
