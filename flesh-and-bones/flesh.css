@@ -31,6 +31,10 @@ body {
     overflow-y: hidden;       
 }
 
+p {
+    font-family: "Name", Arial, Helvetica, sans-serif;    
+}
+
 /* 1.1 Typography */
 
 /* 1.2 Links & Buttons */
@@ -65,22 +69,47 @@ nav ul li {
     list-style: none;
 }
 
+/*
+.social {
+    display: inline;
+    text-align: center;
+    list-style: none;
+}
+
+.social ul li {
+    display: inline;
+} */
+
 
 /* 3. Flexbox */
+.flex-wrapper {
+    display: flex;
+    /* inline-flex to display container inline. */
+    flex-flow: row wrap;
+    /* same as flex-direction: row; flex-wrap: wrap;
+    On small screens can switch to flex-direction: column;
+    */
+    justify-content: space-around;
+    /* alignment along the main axis, evenly distributed across the space */
+}
+
+.flex-item {
+    /* set the order: order: -1; */
+    /* Nest flex for additional options by adding display: flex; */
+}
 
 
 /* 4. CSS Grid */
 
 .grid-wrapper {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     /* repeats 1fr column 3 times OR
     grid-template: row values / column values */
-    grid-template-columns: repeat(3, 1fr);
-    /* row gap, column gap */
-    grid-gap: 20px 10px;
+    grid-gap: 20px 10px; /* row gap, column gap */
   }
   
-  .item {
+  .grid-item {
     /* align - align along the column axis
     justify - aligning along the row axis */
   }
