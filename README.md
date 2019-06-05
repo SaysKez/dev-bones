@@ -83,7 +83,9 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 - [Media queries for standard devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 #### :scissors: Sass
-- 
+- [SCSS setup and examples](https://gist.github.com/hofmannsven/b219051467f86f2ac469)
+- [SCSS feature reference](https://dev.to/finallynero/scss-cheatsheet-7g6)
+- [SCSS cheatsheet](https://devhints.io/sass)
 
 #### :triangular_ruler: CSS Grid
 - [CSS-Trick's Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
