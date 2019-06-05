@@ -18,7 +18,7 @@ Download the ZIP file above or copy this command into your terminal to get your 
 
 ## How to use
 Grab the bits you need, bury the rest:
-- Download a Skeleton or Zombie, give it a name, pour in your own content, and put some flesh on those bones.
+- Download a Skeleton or Zombie, give it a name, pour in your content, and put some flesh on those bones.
 - Grab what you need from the Flesh & Bones collection and ditch the rest. 
 - Dive into the Resources & Brain Matter (below) to guide you from styling and layout to version control and testing.
 
@@ -47,6 +47,7 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
       - [:earth_americas: Accessibility](#earthamericas-accessibility)
   - [Misc Tools](#misc-tools)
       - [:space_invader: Image Preparation](#spaceinvader-image-preparation)
+      - [:rocket: Deployment](#rocket-deployment)
 
 ## Content
 #### :pencil: Markdown
@@ -115,6 +116,7 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 #### :runner: Task Runners
 - [Grunt task runner](https://gruntjs.com/)
 	- [Setting up Grunt](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
+	- **Handy tasks:**
 	- [uglify JS](https://github.com/gruntjs/grunt-contrib-uglify)
 	- [Minify CSS](https://www.npmjs.com/package/grunt-contrib-cssmin)
 	- [Image minify](https://www.npmjs.com/package/grunt-contrib-imagemin)
@@ -122,7 +124,6 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 	- [Autoprefixer](https://github.com/nDmitry/grunt-postcss)
 	- [Sass > CSS compiler](https://github.com/gruntjs/grunt-contrib-sass)
 	- [Watch for changes](https://github.com/gruntjs/grunt-contrib-watch)
-	- [Jekyll]
 
 ## Javascript
 #### :electric_plug: Plugins
@@ -145,3 +146,7 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 #### :space_invader: Image Preparation
 - [Favicon Generator](https://realfavicongenerator.net/)
 - [TinyPNG](https://tinypng.com/)
+
+#### :rocket: Deployment
+- [Netlify - Build and deploy free from your repo](https://www.netlify.com/)
+- [Forestry.io - Free static site CMS](https://forestry.io/)
