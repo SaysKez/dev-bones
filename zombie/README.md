@@ -15,22 +15,17 @@ The skeleton boilerplate with an extra wrapping of SCSS, Grunt task runner preco
 - .gitignore set up to ignore all those clunky node modules and files that would clog your repo.
 
 ## How to Use
-After downloading...
 
 ### Initial Setup
-1. Install Sass globally: 
+After downloading the zombie files...
 
-`npm install -g sass`
+1. Install Sass globally: `npm install -g sass`
 
-2. Install Grunt globally:
-
-`npm install -g grunt-cli`
+2. Install Grunt globally: `npm install -g grunt-cli`
 
 3. cd into your project directory
 
-4. Install Grunt project dependencies
-
-`npm install`
+4. Install Grunt project dependencies: `npm install`
 
 5. **Go!** Customise the content, configure grunt tasks, and unleash your zombie.
 
