@@ -1,46 +1,3 @@
-/*
-module.exports = function(grunt) {
-
-    // Utility to load the different option files
-    // based on their names
-    function loadConfig(path) {
-      var glob = require('glob');
-      var object = {};
-      var key;
-  
-      glob.sync('*', {cwd: path}).forEach(function(option) {
-        key = option.replace(/\.js$/,'');
-        object[key] = require(path + option);
-      });
-  
-      return object;
-    }
-  
-    // Initial config
-    var config = {
-      pkg: grunt.file.readJSON('package.json')
-    }
-  
-    // Load tasks from the tasks folder
-    grunt.loadTasks('tasks');
-  
-    // Load all the tasks options in tasks/options base on the name:
-    // watch.js => watch{}
-    grunt.util._.extend(config, loadConfig('./tasks/options/'));
-  
-    grunt.initConfig(config);
-  
-    require('load-grunt-tasks')(grunt);
-  
-    // Default Task is basically a rebuild
-    grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin', 'autoprefixer', 'cssmin']);
-  
-    // Moved to the tasks folder:
-    // grunt.registerTask('dev', ['connect', 'watch']);
-  
-  };
-  */
-
  module.exports = function(grunt) {
 
     // 1. All configuration goes here 
@@ -50,8 +7,8 @@ module.exports = function(grunt) {
             // 2. Configuration for files goes here.
             uglify: {
                 build: {
-                    src: 'js/animation.js',
-                    dest: 'js/animation.min.js'
+                    src: 'js/main.js',
+                    dest: 'site/js/main.min.js'
                 }
             },
 
@@ -59,9 +16,9 @@ module.exports = function(grunt) {
                 dynamic: {
                     files: [{
                         expand: true,
-                        cwd: 'casestudy/images/',
+                        cwd: 'img/',
                         src: ['**/*.{png,jpg,gif}'],
-                        dest: 'build/casestudy/images/'
+                        dest: 'site/img/'
                     }]
                 }
             },
@@ -76,14 +33,6 @@ module.exports = function(grunt) {
                     }
                 } 
             },
-
-            jekyll: {
-                dist: {
-                  options: {
-                    config: '_config.yml',
-                  }
-                }
-              },
 
             watch: {
                 scripts: {
@@ -109,7 +58,7 @@ module.exports = function(grunt) {
                     collapseWhitespace: true
                   },
                   files: {                                   // Dictionary of files
-                    '_site/index.html': '_site/index.html',     // 'destination': 'source'
+                    'site/index.html': 'index.html',     // 'destination': 'source'
                   }
                 },
               }

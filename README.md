@@ -84,6 +84,7 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 - [Media queries for standard devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 #### :scissors: Sass
+- [Official Sass basics & documentation](https://sass-lang.com/guide)
 - [SCSS setup and examples](https://gist.github.com/hofmannsven/b219051467f86f2ac469)
 - [SCSS feature reference](https://dev.to/finallynero/scss-cheatsheet-7g6)
 - [SCSS cheatsheet](https://devhints.io/sass)
