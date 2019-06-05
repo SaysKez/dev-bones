@@ -116,8 +116,9 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 
 #### :runner: Task Runners
 - [Grunt task runner](https://gruntjs.com/)
-	- [Setting up Grunt](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
-	- **Handy tasks:**
+	- [Installing & setting up Grunt](https://gruntjs.com/getting-started)
+	- [Setting up Grunt walkthrough](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
+	- Handy Grunt tasks:
 	- [uglify JS](https://github.com/gruntjs/grunt-contrib-uglify)
 	- [Minify CSS](https://www.npmjs.com/package/grunt-contrib-cssmin)
 	- [Image minify](https://www.npmjs.com/package/grunt-contrib-imagemin)

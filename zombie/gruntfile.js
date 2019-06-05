@@ -6,9 +6,14 @@
 
             // 2. Configuration for files goes here.
             uglify: {
-                build: {
-                    src: 'js/main.js',
-                    dest: 'site/js/main.min.js'
+                my_target: {
+                  files: [{
+                    expand: true,
+                    cwd: 'js',
+                    src: '**/*.js',
+                    dest: 'site/js',
+                    //ext: '.min.js',
+                  }]
                 }
             },
 
@@ -29,14 +34,26 @@
                         style: 'compressed'
                     },
                     files: {
-                        'css/style.css': 'css/style.scss'
+                        'site/css/main.css': 'css/main.scss'
                     }
                 } 
             },
 
+            cssmin: {
+              target: {
+                files: [{
+                  expand: true,
+                  cwd: 'css',
+                  src: ['*.css', '!*.min.css'],
+                  dest: 'site/css',
+                  //ext: '.min.css'
+                }]
+              }
+            },
+
             watch: {
                 scripts: {
-                    files: ['js/*.js'],
+                    files: ['js/*.js', 'js/vendor/*.js'],
                     tasks: ['uglify'],
                     options: {
                         spawn: false,
@@ -57,8 +74,10 @@
                     removeComments: false,
                     collapseWhitespace: true
                   },
-                  files: {                                   // Dictionary of files
+                  files: {                                // Dictionary of files
                     'site/index.html': 'index.html',     // 'destination': 'source'
+                    'site/404.html': '404.html'
+                    // Add more pages here
                   }
                 },
               }
@@ -70,11 +89,10 @@
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-jekyll');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    //grunt.registerTask('default', ['uglify', 'imagemin']);
-    grunt.registerTask('default', ['uglify', 'sass', 'jekyll', 'htmlmin']);
+    grunt.registerTask('default', ['uglify', 'imagemin', 'sass', 'htmlmin', 'cssmin']);
 
 };
