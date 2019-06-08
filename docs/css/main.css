@@ -8,12 +8,16 @@
 
 /* TYPOGRAPHY */
 
+html {
+    max-width: 1440px;
+}
+
 body {
     color: #000;
     margin: auto;
-    max-width: 1440px;
     position: relative;
     width: 100%;
+    overflow-x: hidden;
     /* background-color: #FF3262; */
 }
 
@@ -79,6 +83,10 @@ p a:hover {
     width: 100%;
 }
 
+.ribs-replace {
+    display: none;
+}
+
 .header {
     width: 95%;
     margin: auto;
@@ -123,6 +131,10 @@ nav li:hover:before {
     background-color: #000;
     -webkit-transition: all 0.175s ease-in-out;
     transition: all 0.175s ease-in-out;
+}
+
+.button-replace {
+    display: none;
 }
 
 .button:hover {
@@ -351,4 +363,117 @@ footer p {
 .bones small:after {
     content: "</footer>";
     font-size: 80%;
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 75em) {
+    .ribs {
+        background-image: none;
+        height: 100vh;
+    }
+
+    .ribs-replace {
+        display: block;
+        position: absolute;
+        width: 50em;
+        left: 55vw;
+        top: -30em;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    header {
+        left: 2em;
+    }
+
+    nav {
+        margin-left: 2em;
+    }
+
+    .grid-container {
+        display: block;
+        width: 50%;
+        margin-right: 50%;
+        margin-left: 2em;
+    }
+
+    .grid-container div {
+        margin-bottom: 4.209em;
+    }
+
+    div.item-4 {
+        margin-bottom: 0em;
+    }
+
+    .grid-container .button {
+        display: none;
+    }
+
+    h2 {
+        margin: 1.56em auto;
+    }
+
+    h3 {
+        border-bottom: 0.1em solid #000;
+        border-bottom: none;
+        width: 55%;
+    }
+
+    .button-replace {
+        display: block;
+        position: absolute;
+        right: 30%;
+        bottom: 600px;
+    }
+
+    img {
+        position: relative;
+    }
+
+    html {
+        position: relative;
+    }
+
+    footer {
+        width: 100%;
+        position: absolute;
+        right: 2em;
+        bottom: 0em;
+    }
+}
+
+
+
+@media (max-width: 40em) {
+    .ribs-replace {
+        display: none;
+    }
+
+    .ribs {
+        height: auto;
+    }
+
+    header {
+        width: 70%;
+        position: static;
+        margin: 4em auto 10em 2em;
+    }
+
+    .grid-container {
+        width: 70%;
+    }
+
+    img {
+        width: 700px;
+        left: -150px;
+    }
+
+    .button-replace {
+        right: 2em;
+        bottom: 400px;
+    }
 }
