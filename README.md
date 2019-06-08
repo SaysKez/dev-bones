@@ -120,8 +120,8 @@ Dev Bones is based on my frequently used project elements and grew out of a cust
 	- [Setting up Grunt walkthrough](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
 	- Handy Grunt tasks:
 	- [Uglify JS](https://github.com/gruntjs/grunt-contrib-uglify)
-	- [Minify CSS](https://www.npmjs.com/package/grunt-contrib-cssmin)
-	- [Minify Image](https://www.npmjs.com/package/grunt-contrib-imagemin)
+	- [Minify CSS](https://github.com/gruntjs/grunt-contrib-cssmin)
+	- [Minify Image](https://github.com/gruntjs/grunt-contrib-imagemin)
 	- [Minify HTML](https://github.com/gruntjs/grunt-contrib-htmlmin)
 	- [Autoprefixer](https://github.com/nDmitry/grunt-postcss)
 	- [Sass > CSS compiler](https://github.com/gruntjs/grunt-contrib-sass)
