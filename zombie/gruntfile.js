@@ -9,7 +9,7 @@
                 my_target: {
                   files: [{
                     expand: true,
-                    cwd: 'js',
+                    cwd: 'src/js',
                     src: '**/*.js',
                     dest: 'site/js',
                     //ext: '.min.js',
@@ -21,7 +21,7 @@
                 dynamic: {
                     files: [{
                         expand: true,
-                        cwd: 'img/',
+                        cwd: 'src/img/',
                         src: ['**/*.{png,jpg,gif}'],
                         dest: 'site/img/'
                     }]
@@ -34,7 +34,7 @@
                         style: 'compressed'
                     },
                     files: {
-                        'site/css/main.css': 'css/main.scss'
+                        'site/css/main.css': 'src/css/main.scss'
                     }
                 } 
             },
@@ -43,7 +43,7 @@
               target: {
                 files: [{
                   expand: true,
-                  cwd: 'css',
+                  cwd: 'src/css',
                   src: ['*.css', '!*.min.css'],
                   dest: 'site/css',
                   //ext: '.min.css'
@@ -53,14 +53,14 @@
 
             watch: {
                 scripts: {
-                    files: ['js/*.js', 'js/vendor/*.js'],
+                    files: ['src/js/*.js', 'src/js/vendor/*.js'],
                     tasks: ['uglify'],
                     options: {
                         spawn: false,
                     }
                 },
                 css: {
-                    files: ['css/*.scss'],
+                    files: ['src/css/*.scss'],
                     tasks: ['sass'],
                     options: {
                         spawn: false,
@@ -69,18 +69,19 @@
             },
 
             htmlmin: {                                     // Task
-                dist: {                                      // Target
-                  options: {                                 // Target options
-                    removeComments: false,
-                    collapseWhitespace: true
-                  },
-                  files: {                                // Dictionary of files
-                    'site/index.html': 'index.html',     // 'destination': 'source'
-                    'site/404.html': '404.html'
-                    // Add more pages here
-                  }
-                },
-              }
+              dist: {                                      // Target
+                options: {                                 // Target options
+                  removeComments: false,
+                  collapseWhitespace: true
+                },                                     // Another target
+                  files: [{
+                    expand: true,
+                    cwd: 'src',
+                    src: ['**/*.html', '*.html', '!node_modules/**/*.html'],
+                    dest: 'site'
+                }]
+            }
+          }
 
     });
 
