@@ -2,7 +2,7 @@
 https://sayskez.github.io/dev-bones/
 
 ## What?
-The
+Semantic HTML bones and modular CSS flesh ready to graft on to any skeleton and speed up your zombie production line: from an inline nav, and starter grid shorthand to microinteractions.
 
 ### What's Inside:
 #### HTML Bones
@@ -25,4 +25,4 @@ Quick reference of my basic personal setup. Including:
 - Bookmarks
 
 ## How to Use
-Download the files and copy and paste to your heart's content. Graft them on to the [Skeleton]() or [Zombie]() starting templates to get up and running in minutes.
+Download the files and copy and paste to your heart's content. Graft them on to the [Skeleton](https://github.com/SaysKez/dev-bones/tree/master/skeleton) or [Zombie](https://github.com/SaysKez/dev-bones/tree/master/zombie) starting templates to get up and running in minutes.
