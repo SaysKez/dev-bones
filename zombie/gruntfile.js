@@ -65,7 +65,14 @@
                     options: {
                         spawn: false,
                     }
-                }
+                },
+                html: {
+                  files: ['src/*.html', 'src/**/*.html', '!node_modules/*.html'],
+                  tasks: ['htmlmin'],
+                  options: {
+                      spawn: false,
+                  }
+              }
             },
 
             htmlmin: {                                     // Task
