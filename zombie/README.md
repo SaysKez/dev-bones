@@ -9,10 +9,11 @@ The skeleton with an extra wrapping of SCSS, task runner preconfigured to compil
 - Fully commented gruntfile configured to compress images, js, css, and html and build it all to `site` with a single command.
 - SCSS ready to go and compile to css with a single command.
 - File structure ready to go:
+  - `src` for where you work
   - `css` for your styles
   - `js` for your scripts
   - `img` for your... well images
-  - `site` for where it all builds
+  - `site` for where it all builds (don't edit this one unless you're messing with favicons)
 - .gitignore set up to ignore all those clunky node modules and files that would clog your repo.
 
 ## How to Use
