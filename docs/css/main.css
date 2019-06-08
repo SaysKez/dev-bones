@@ -251,16 +251,12 @@ footer p {
     opacity: 0.95;
 }
 
-.bones a {
-    color: #fff;
-}
-
 .bones h3 {
     width: 80%;
 }
 
 .bones nav a:hover {
-    color: #000;
+    color: #fff;
 }
 
 .bones .button:hover {
@@ -272,11 +268,11 @@ footer p {
 }
 
 .bones p a:hover {
-    color: #000;
+    color: #fff;
 }
 
 
-
+/* reveal code before/after */
 .bones *:before, .bones *:after {
     color: #000;
     font-size: 60%;
