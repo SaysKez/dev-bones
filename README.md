@@ -23,7 +23,7 @@ Grab the bits you need, bury the rest:
 - Dive into the [Resources & Brain Matter (below)](#resources--brain-matter) to guide you from styling and layout to version control and testing.
 
 ## Credits
-Dev Bones is based on my frequently used project elements and grew out of a customised skeleton of the awesome [HTML5 Boilerplate](https://html5boilerplate.com/) and [mrmrs HTML Blocks](https://github.com/mrmrs/html). Begun as a [#12in12 Side Project](https://medium.com/@SaysKez/12-in-12-a-year-of-design-37a81940c5d0) and bashed together in under a month. If you have any suggestions, submit a pull request or gives me a shout [@SaysKez](https://twitter.com/SaysKez).
+Dev Bones is based on my frequently used project elements and grew out of a customised skeleton of the awesome [HTML5 Boilerplate](https://html5boilerplate.com/) and [mrmrs HTML Blocks](https://github.com/mrmrs/html). Begun as a [#12in12 Side Project](https://medium.com/@SaysKez/12-in-12-a-year-of-design-37a81940c5d0) and bashed together in under a month. If you have any suggestions, submit a pull request or gives me a shout [@SaysKez](https://twitter.com/SaysKez)
 
 ## Resources & Brain Matter
 ### Table of Contents
